@@ -35,6 +35,8 @@ namespace CarLotSimulator
             car1.HonkNoise = "Beep";
             car1.IsDriveable = true;
 
+            Console.WriteLine(CarLot.numberOfCars);
+
 
             CarClass car2 = new CarClass()
             {
@@ -46,7 +48,7 @@ namespace CarLotSimulator
                 IsDriveable = true
             };
 
-
+            Console.WriteLine(CarLot.numberOfCars);
 
 
             //*************BONUS*************//
@@ -64,6 +66,8 @@ namespace CarLotSimulator
             {
 
             }
+
+            Console.WriteLine(CarLot.numberOfCars);
 
             instance.ListOfCars.Add(car1);
             instance.ListOfCars.Add(car2);
